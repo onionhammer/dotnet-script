@@ -163,7 +163,7 @@ foo.csx arg1 arg2 arg3
 The OSX/Linux shebang directive should be **#!/usr/bin/env dotnet-script**
 
 ```cs
-#!/usr/bin/env dotnet-script
+#!/usr/bin/env dotnet dotnet-script
 Console.WriteLine("Hello world");
 ```
 
